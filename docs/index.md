@@ -1,8 +1,23 @@
-# Willkommen zur Dokumentation
-
-Dies ist die Projekt-Dokumentation von `SirScaco/selfhosted-home-infra`.
-
-👉 Beginne z. B. mit dem Kapitel [2. Hardware-Komponenten](./Dokumentationen/Netzwerkdokumentation/2.%20Hardware-Komponenten/2.1.%20Hardwareübersicht%20–%20Hostsystem%20(Produktivserver).md)
-
----
-> Stand: {{< today >}}
+<!-- docs/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selfhosted Home Infrastructure</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">Lade Dokumentation...</div>
+  <script>
+    window.$docsify = {
+      name: '🏠 Selfhosted Docs',
+      repo: 'SirScaco/documentation',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      themeColor: '#42b983'
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
